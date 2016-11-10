@@ -13,8 +13,9 @@ Package.describe({
 Package.onUse(function (api) {
 
   api.versionsFrom("METEOR@1.0");
+  
   api.use([
-    'nova:core'
+    'nova:core@0.27.3-nova'
   ]);
 
   api.addFiles([
